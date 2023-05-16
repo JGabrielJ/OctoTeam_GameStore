@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">OctoTeam_GameStore</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sdasd">sdasd</string>
+    <string name="change_account">Change Account</string>
+    <string name="account_details">Account Details</string>
+    <string name="inventory">Inventory</string>
+    <string name="badges">Badges</string>
+    <string name="screenshots_videos">Screenshots/Videos</string>
+    <string name="groups">Groups</string>
+    <string name="friends">Friends</string>
+    <string name="friend_activity">Friend Activity</string>
+    <string name="my_content">MY CONTENT</string>
+    <string name="add_funds_wallet">Add Funds Wallet</string>
+    <string name="_5_n_games">5\n Games</string>
+    <string name="view_profile">View Profile</string>
+    <string name="username">Username</string>
+    <string name="add_friends">Add Friends</string>
 </resources>
