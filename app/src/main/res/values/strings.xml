@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">OctoTeam_GameStore</string>
+    <string name="red_dead_redemption_2">Red Dead Redemption 2</string>
+    <string name="adicionado_em_20_0_2022">adicionado em 20/0/2022</string>
+    <string name="biblioteca">Biblioteca</string>
+    <string name="menu_deslizante">menu deslizante</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="adicionado_em_20_8_2021">adicionado em 20/8/2021</string>
+    <string name="call_of_duty_modern_warfare">Call of Duty Modern Warfare</string>
+
+    <string-array name="nomes_jogos">
+        <item>Rocket League</item>
+        <item>God Of War Ragnarok</item>
+        <item>Elden Ring</item>
+        <item>Red Dead Redemption 2</item>
+        <item>Call of Duty Modern Warfare</item>
+        <item>Battlefield 2042</item>
+    </string-array>
+
 </resources>
