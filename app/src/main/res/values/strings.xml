@@ -8,13 +8,22 @@
     <string name="adicionado_em_20_8_2021">adicionado em 20/8/2021</string>
     <string name="call_of_duty_modern_warfare">Call of Duty Modern Warfare</string>
 
-    <string-array name="nomes_jogos">
+    <string-array name="nomesJogos">
         <item>Rocket League</item>
         <item>God Of War Ragnarok</item>
         <item>Elden Ring</item>
         <item>Red Dead Redemption 2</item>
         <item>Call of Duty Modern Warfare</item>
         <item>Battlefield 2042</item>
+    </string-array>
+
+    <string-array name="dataJogos">
+        <item>14/05/2022</item>
+        <item>12/05/2022</item>
+        <item>31/02/2022</item>
+        <item>17/04/2023</item>
+        <item>16/04/2023</item>
+        <item>14/04/2023</item>
     </string-array>
 
 </resources>
