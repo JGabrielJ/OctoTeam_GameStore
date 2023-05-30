@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/background_person">
+    android:background="@drawable/background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
                 android:layout_height="100dp"
                 android:layout_marginStart="45dp"
                 android:layout_marginTop="40dp"
-                android:src="@drawable/felca_person"
+                android:src="@drawable/ic_profile"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -60,53 +60,63 @@
                 app:layout_constraintTop_toBottomOf="@id/imagePerson"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
+            <LinearLayout
+                android:id="@+id/buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/divisor0"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:orientation="horizontal"
+                android:gravity="center">
             <Button
-                android:id="@+id/gamesbtn_profile"
-                android:layout_width="110dp"
-                android:layout_height="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:text="@string/_5_n_games"
-                android:textColorHint="@color/white"
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="22dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
                 android:backgroundTint="#1997FE"
-                app:layout_constraintTop_toBottomOf="@id/divisor0"
-                app:layout_constraintStart_toStartOf="parent" />
+                android:layout_weight="1"/>
             <Button
-                android:id="@+id/friendbtn_profile"
-                android:layout_width="110dp"
-                android:layout_height="70dp"
-                android:text="24\n Friends"
-                android:textColorHint="@color/white"
-                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/_24_n_friends"
+                android:textColor="@color/white"
                 android:layout_marginStart="10dp"
                 android:backgroundTint="#1997FE"
-                app:layout_constraintTop_toBottomOf="@id/divisor0"
-                app:layout_constraintStart_toEndOf="@id/gamesbtn_profile"
-                tools:ignore="HardcodedText" />
+                android:layout_weight="1"/>
             <Button
-                android:id="@+id/walletbtn_profile"
-                android:layout_width="110dp"
-                android:layout_height="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:text="@string/add_funds_wallet"
-                android:textColorHint="@color/white"
-                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
                 android:layout_marginStart="10dp"
-                android:layout_marginEnd="5dp"
                 android:backgroundTint="#1997FE"
-                app:layout_constraintTop_toBottomOf="@id/divisor0"
-                app:layout_constraintStart_toEndOf="@id/friendbtn_profile"/>
+                android:layout_weight="150"/>
+            </LinearLayout>
             <Button
                 android:id="@+id/addfriendsbtn_profile"
-                android:layout_width="350dp"
-                android:layout_height="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingStart="100dp"
+                android:paddingEnd="100dp"
                 android:backgroundTint="#1997FE"
-                android:drawableTop="@drawable/ic_personadd"
+                android:drawableLeft="@drawable/ic_person"
                 android:text="@string/add_friends"
                 android:textSize="16sp"
-                android:textColorHint="@color/white"
+                android:textColor="@color/white"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/friendbtn_profile" />
+                app:layout_constraintTop_toBottomOf="@id/buttons"
+                tools:ignore="RtlHardcoded" />
             <TextView
                 android:id="@+id/contentTitle"
                 android:layout_width="80dp"
@@ -118,143 +128,149 @@
                 android:layout_marginTop="25dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/addfriendsbtn_profile"/>
-            <TextView
+            <Button
                 android:id="@+id/friend_activity"
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="15dp"
+                android:layout_height="35dp"
+                android:background="@android:color/transparent"
                 android:text="@string/friend_activity"
-                android:textSize="15sp"
+                android:textAllCaps="false"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
+                android:gravity="start"
                 app:layout_constraintTop_toBottomOf="@id/contentTitle"/>
             <View
                 android:id="@+id/divisor1"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#555657"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 app:layout_constraintTop_toBottomOf="@id/friend_activity"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
-            <TextView
+            <Button
                 android:id="@+id/friend_list"
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_height="35dp"
+                android:background="@android:color/transparent"
                 android:text="@string/friends"
-                android:textSize="15sp"
+                android:textAllCaps="false"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
+                android:gravity="start"
                 app:layout_constraintTop_toBottomOf="@id/divisor1"/>
             <View
                 android:id="@+id/divisor2"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#555657"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 app:layout_constraintTop_toBottomOf="@id/friend_list"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
-            <TextView
+            <Button
                 android:id="@+id/group_list"
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_height="38dp"
+                android:background="@android:color/transparent"
                 android:text="@string/groups"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
+                android:textAllCaps="false"
                 android:textColor="@color/white"
+                android:gravity="start"
                 app:layout_constraintTop_toBottomOf="@id/divisor2"/>
             <View
                 android:id="@+id/divisor3"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#555657"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 app:layout_constraintTop_toBottomOf="@id/group_list"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
-            <TextView
+            <Button
                 android:id="@+id/screenshot_videos"
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_height="38dp"
+                android:background="@android:color/transparent"
                 android:text="@string/screenshots_videos"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:gravity="start"
                 app:layout_constraintTop_toBottomOf="@id/divisor3"/>
             <View
                 android:id="@+id/divisor4"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#555657"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
                 app:layout_constraintTop_toBottomOf="@id/screenshot_videos"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
-            <TextView
+            <Button
                 android:id="@+id/badges_list"
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_height="38dp"
+                android:background="@android:color/transparent"
                 android:text="@string/badges"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:gravity="start"
                 app:layout_constraintTop_toBottomOf="@id/divisor4"/>
             <View
                 android:id="@+id/divisor5"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#555657"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
                 app:layout_constraintTop_toBottomOf="@id/badges_list"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
-            <TextView
+            <Button
                 android:id="@+id/inventory"
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_height="38dp"
+                android:background="@android:color/transparent"
                 android:text="@string/inventory"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:gravity="start"
                 app:layout_constraintTop_toBottomOf="@id/divisor5"/>
             <View
                 android:id="@+id/divisor6"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#555657"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 app:layout_constraintTop_toBottomOf="@id/inventory"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
-            <TextView
+            <Button
                 android:id="@+id/acc_details"
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_height="38dp"
+                android:backgroundTint="@android:color/transparent"
                 android:text="@string/account_details"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
-                android:textColorHint="@color/white"
+                android:textAllCaps="false"
+                android:gravity="start"
                 app:layout_constraintTop_toBottomOf="@id/divisor6"
                 app:drawableRightCompat="@drawable/ic_next" />
             <View
@@ -262,22 +278,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#555657"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
                 app:layout_constraintTop_toBottomOf="@id/acc_details"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
-            <TextView
+            <Button
                 android:id="@+id/change_acc"
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_height="38dp"
+                android:backgroundTint="@android:color/transparent"
                 android:text="@string/change_account"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
+                android:textAllCaps="false"
+                android:gravity="start"
                 app:layout_constraintTop_toBottomOf="@id/divisor7"
                 app:drawableEndCompat="@drawable/ic_next" />
             <View
@@ -285,25 +302,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#555657"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="5dp"
                 app:layout_constraintTop_toBottomOf="@id/change_acc"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
-            <TextView
+            <Button
                 android:id="@+id/sign_out"
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="40dp"
+                android:layout_height="38dp"
+                android:backgroundTint="@android:color/transparent"
                 android:text="@string/sign_out"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
-                android:textColorHint="@color/white"
+                android:textAllCaps="false"
+                android:gravity="start"
                 app:layout_constraintTop_toBottomOf="@id/divisor8"/>
-
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 </ScrollView>
