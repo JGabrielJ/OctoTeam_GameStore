@@ -26,4 +26,17 @@
         <item>14/04/2023</item>
     </string-array>
 
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="abrir">abrir</string>
+    <string name="rocket_league">Rocket League</string>
+    <string name="_14_05_2022">14/05/2022</string>
+    <string name="god_of_war_ragnarok">God Of War Ragnarok</string>
+    <string name="_12_05_2022">12/05/2022</string>
+    <string name="elden_ring">Elden Ring</string>
+    <string name="_31_02_2022">31/02/2022</string>
+    <string name="_17_04_2023">17/04/2023</string>
+    <string name="_16_04_2023">16/04/2023</string>
+    <string name="battlefield_2042">Battlefield 2042</string>
+    <string name="_14_04_2023">14/04/2023</string>
+
 </resources>
