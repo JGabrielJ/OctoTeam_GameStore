@@ -1,12 +1,4 @@
 <resources>
-    <string name="app_name">OctoTeam_GameStore</string>
-    <string name="red_dead_redemption_2">Red Dead Redemption 2</string>
-    <string name="adicionado_em_20_0_2022">adicionado em 20/0/2022</string>
-    <string name="biblioteca">Biblioteca</string>
-    <string name="menu_deslizante">menu deslizante</string>
-    <string name="favoritos">Favoritos</string>
-    <string name="adicionado_em_20_8_2021">adicionado em 20/8/2021</string>
-    <string name="call_of_duty_modern_warfare">Call of Duty Modern Warfare</string>
 
     <string-array name="nomesJogos">
         <item>Rocket League</item>
@@ -28,13 +20,22 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="abrir">abrir</string>
+    <string name="visitar_p_gina_na_loja">Visitar página na loja</string>
+    <string name="app_name">OctoTeam_GameStore</string>
+    <string name="adicionado_em_20_0_2022">adicionado em 20/0/2022</string>
+    <string name="menu_deslizante">menu deslizante</string>
+    <string name="biblioteca">Biblioteca</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="adicionado_em_20_8_2021">adicionado em 20/8/2021</string>
     <string name="rocket_league">Rocket League</string>
     <string name="_14_05_2022">14/05/2022</string>
     <string name="god_of_war_ragnarok">God Of War Ragnarok</string>
     <string name="_12_05_2022">12/05/2022</string>
     <string name="elden_ring">Elden Ring</string>
     <string name="_31_02_2022">31/02/2022</string>
+    <string name="red_dead_redemption_2">Red Dead Redemption 2</string>
     <string name="_17_04_2023">17/04/2023</string>
+    <string name="call_of_duty_modern_warfare">Call of Duty Modern Warfare</string>
     <string name="_16_04_2023">16/04/2023</string>
     <string name="battlefield_2042">Battlefield 2042</string>
     <string name="_14_04_2023">14/04/2023</string>

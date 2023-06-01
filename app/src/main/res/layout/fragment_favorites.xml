@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/remover"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background">
@@ -66,10 +67,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="8dp"
-                        android:layout_marginBottom="16dp"
+                        android:layout_marginBottom="8dp"
                         android:text="@string/_14_05_2022"
                         android:textColor="@color/white"
-                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/abrir_btn"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/titulo_jogo" />
 
@@ -77,12 +78,23 @@
                         android:id="@+id/abrir_btn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginBottom="16dp"
                         android:backgroundTint="@color/btn_color"
-                        android:text="@string/abrir"
+                        android:text="@string/visitar_p_gina_na_loja"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/foto_jogo" />
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/data_jogo" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="47dp"
+                        android:layout_height="47dp"
+                        app:srcCompat="@drawable/baseline_remove_circle_24"
+                        app:layout_constraintStart_toEndOf="@id/abrir_btn"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginStart="20dp"/>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
@@ -135,10 +147,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="8dp"
-                        android:layout_marginBottom="16dp"
+                        android:layout_marginBottom="8dp"
                         android:text="@string/_12_05_2022"
                         android:textColor="@color/white"
-                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/abrir_btn2"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/titulo_jogo2" />
 
@@ -146,12 +158,23 @@
                         android:id="@+id/abrir_btn2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginBottom="16dp"
                         android:backgroundTint="@color/btn_color"
-                        android:text="@string/abrir"
+                        android:text="@string/visitar_p_gina_na_loja"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/foto_jogo2" />
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/data_jogo2" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="47dp"
+                        android:layout_height="47dp"
+                        app:srcCompat="@drawable/baseline_remove_circle_24"
+                        app:layout_constraintStart_toEndOf="@id/abrir_btn2"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginStart="20dp"/>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
@@ -203,23 +226,34 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="8dp"
-                        android:layout_marginBottom="16dp"
+                        android:layout_marginBottom="8dp"
                         android:text="@string/_31_02_2022"
                         android:textColor="@color/white"
-                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/abrir_btn3"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/titulo_jogo3" />
+                        app:layout_constraintTop_toBottomOf="@+id/titulo_jogo3" />
 
                     <Button
                         android:id="@+id/abrir_btn3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginBottom="16dp"
                         android:backgroundTint="@color/btn_color"
-                        android:text="@string/abrir"
+                        android:text="@string/visitar_p_gina_na_loja"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/foto_jogo3" />
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/data_jogo3" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="47dp"
+                        android:layout_height="47dp"
+                        app:srcCompat="@drawable/baseline_remove_circle_24"
+                        app:layout_constraintStart_toEndOf="@id/abrir_btn3"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginStart="20dp"/>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
@@ -271,26 +305,38 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="8dp"
-                        android:layout_marginBottom="16dp"
+                        android:layout_marginBottom="8dp"
                         android:text="@string/_17_04_2023"
                         android:textColor="@color/white"
-                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/abrir_btn4"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/titulo_jogo4" />
+                        app:layout_constraintTop_toBottomOf="@+id/titulo_jogo4" />
 
                     <Button
                         android:id="@+id/abrir_btn4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginBottom="16dp"
                         android:backgroundTint="@color/btn_color"
-                        android:text="@string/abrir"
+                        android:text="@string/visitar_p_gina_na_loja"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/foto_jogo4" />
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/data_jogo4" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="47dp"
+                        android:layout_height="47dp"
+                        app:srcCompat="@drawable/baseline_remove_circle_24"
+                        app:layout_constraintStart_toEndOf="@id/abrir_btn4"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginStart="20dp"/>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -338,23 +384,34 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="8dp"
-                        android:layout_marginBottom="16dp"
+                        android:layout_marginBottom="8dp"
                         android:text="@string/_16_04_2023"
                         android:textColor="@color/white"
-                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/abrir_btn5"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/titulo_jogo5" />
+                        app:layout_constraintTop_toBottomOf="@+id/titulo_jogo5" />
 
                     <Button
                         android:id="@+id/abrir_btn5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginBottom="16dp"
                         android:backgroundTint="@color/btn_color"
-                        android:text="@string/abrir"
+                        android:text="@string/visitar_p_gina_na_loja"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/foto_jogo5" />
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/data_jogo5" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="47dp"
+                        android:layout_height="47dp"
+                        app:srcCompat="@drawable/baseline_remove_circle_24"
+                        app:layout_constraintStart_toEndOf="@id/abrir_btn5"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginStart="20dp"/>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
@@ -406,23 +463,34 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="8dp"
-                        android:layout_marginBottom="16dp"
+                        android:layout_marginBottom="8dp"
                         android:text="@string/_14_04_2023"
                         android:textColor="@color/white"
-                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/abrir_btn6"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/titulo_jogo6" />
+                        app:layout_constraintTop_toBottomOf="@+id/titulo_jogo6" />
 
                     <Button
                         android:id="@+id/abrir_btn6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="24dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginBottom="16dp"
                         android:backgroundTint="@color/btn_color"
-                        android:text="@string/abrir"
+                        android:text="@string/visitar_p_gina_na_loja"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/foto_jogo6" />
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/data_jogo6" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="47dp"
+                        android:layout_height="47dp"
+                        app:srcCompat="@drawable/baseline_remove_circle_24"
+                        app:layout_constraintStart_toEndOf="@id/abrir_btn6"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginStart="20dp"/>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
