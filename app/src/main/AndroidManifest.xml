@@ -12,7 +12,10 @@
         android:theme="@style/Theme.OctoTeam_GameStore"
         tools:targetApi="31">
         <activity
-            android:name=".DescActivity"
+            android:name=".ActivityDownload"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityDesc"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

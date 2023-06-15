@@ -2,8 +2,6 @@
     <string name="app_name">OctoTeam_GameStore</string>
     <string name="octopius_game">Octopius Game</string>
     <string name="red_dead_redemption_2">Red Dead Redemption 2</string>
-    <string name="overview">Overview</string>
-    <string name="achievements">Achievements</string>
     <string name="subtitle">BASE GAME</string>
     <string name="sign_out">Sign Out</string>
     <string name="change_account">Change Account</string>
@@ -22,13 +20,11 @@
     <string name="add_friends">Add Friends</string>
     <string name="price">R$ 98,96</string>
     <string name="buy_now">BUY NOW</string>
-    <string name="add_to_cart">ADD TO CART</string>
     <string name="home">Home</string>
     <string name="favorite">Favorite</string>
     <string name="profile">Profile</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="add_to_wishlist">ADD TO WISHLIST</string>
     <string name="refund_type">Refund Type</string>
     <string name="self_refundable">Self-Refundable</string>
     <string name="developer">Developer</string>
@@ -37,15 +33,13 @@
     <string name="release_date">Release Date</string>
     <string name="_5_dec_2019">5 Dec, 2019</string>
     <string name="platform">Platform</string>
-    <string name="see_all_reviews">SEE ALL REVIEWS</string>
     <string name="game_informer">Game Informer</string>
-    <string name="author">by Wesley LeBlanc</string>
-    <string name="note">9.80 / 10</string>
-    <string name="review">I believe the story rivals that of television and\nfilm\'s greatest, and should definitely have the\ncharacter lineup considered as one of the\ngreatest ever written. The characters, including\nArthur Morgan and Dutch Van Der Linde, have\nsome of the most complicate moral dilemmas\nand plot lines in all of media history. And it\'s\nmore than interesting to watch unfold in the\ngame as you play.</string>
-    <string name="read_full_review">READ FULL REVIEW</string>
-    <string name="author1">by KissXsis</string>
-    <string name="note1">9.97 / 10</string>
-    <string name="review1">It\'s not discrediting GOW which is a\nsensational game, but RDR 2 is absurd, for me\nit only loses to some games. I played it once on\nPS4 and finished it, I play it again and reaffirm\nthat this game is one of the best ever made!!</string>
+    <string name="author1">by Wesley LeBlanc</string>
+    <string name="note1">9.80 / 10</string>
+    <string name="review1">This game is amazing! The gameplay is immersive\nand the graphics are stunning. I\'m addicted to the\nexciting challenges it offers. I recommend it to all\ngame lovers!</string>
+    <string name="author2">by KissXsis</string>
+    <string name="note2">9.97 / 10</string>
+    <string name="review2">This game is simply addictive! The levels are well\ncrafted and the difficulty gradually increases,\nkeeping the challenge always interesting. Sound\neffects and soundtrack contribute to an immersive\nexperience. I can\'t stop playing!</string>
     <string name="provider">Reviews Provided by Octopius Games</string>
     <string name="specifications">Specifications</string>
     <string name="windows">Windows</string>
@@ -66,7 +60,10 @@
     <string name="requirements">Requires OctopiusGame account</string>
     <string name="languages_supported">Languages Supported</string>
     <string name="languages">AUDIO: English,\nTEXT: English, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Russian, Polish, Spanish - Latin America, Korean, Chinese - Simplified, Chinese - Traditional, Czech, Japanese</string>
-    <string name="copyright">Rockstar Games, Inc 2005–19. Rockstar Games, Red Dead Redemption, R*, Redemption, Red Dead and Dead Eye are trademarks/logos/copyrights of Take-Two Interactive. Dolby and the double \"\"D\"\" symbol are trademarks and registered trademarks of their respective owners. All rights reserved.</string>
+    <string name="copyright">All rights reserved. The game and all of its elements are protected by copyright laws and international treaties. Reproduction, distribution, modification or any form of use without prior written authorization from the developer company is prohibited.</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="_24_n_friends">24\n Friends</string>
+    <string name="exit">Exit</string>
+    <string name="about_the_game">ABOUT THE GAME</string>
+    <string name="game_reviews">GAME REVIEWS</string>
 </resources>
