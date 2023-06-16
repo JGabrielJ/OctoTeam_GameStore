@@ -5,7 +5,6 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import com.example.octoteam_gamestore.databinding.ActivityDescBinding
 import com.example.octoteam_gamestore.databinding.ActivityDownloadBinding
 import com.google.android.material.appbar.MaterialToolbar
 

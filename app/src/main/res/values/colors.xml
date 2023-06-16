@@ -14,5 +14,7 @@
     <color name="back_title">#161B1F</color>
     <color name="back_nav_bar">#202126</color>
     <color name="back_button">#26A5DA</color>
-    <color name="background_person">#242235</color>
+    <color name="background">#242235</color>
+    <color name="btn_color">#1997FE</color>
+    <color name="foreground">#FF333049</color>
 </resources>

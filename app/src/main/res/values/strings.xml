@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">OctoTeam_GameStore</string>
-    <string name="octopius_game">Octopius Game</string>
+    <string name="app_name">Octopius Game</string>
     <string name="red_dead_redemption_2">Red Dead Redemption 2</string>
     <string name="subtitle">BASE GAME</string>
     <string name="sign_out">Sign Out</string>
@@ -34,12 +33,12 @@
     <string name="_5_dec_2019">5 Dec, 2019</string>
     <string name="platform">Platform</string>
     <string name="game_informer">Game Informer</string>
-    <string name="author1">by Wesley LeBlanc</string>
+    <string name="author1">by James Salad Fruit</string>
     <string name="note1">9.80 / 10</string>
-    <string name="review1">This game is amazing! The gameplay is immersive\nand the graphics are stunning. I\'m addicted to the\nexciting challenges it offers. I recommend it to all\ngame lovers!</string>
+    <string name="review1">This game is amazing! The gameplay is\nimmersive and the graphics are stunning. I\'m\naddicted to the exciting challenges it offers. I\nrecommend it to all game lovers!</string>
     <string name="author2">by KissXsis</string>
     <string name="note2">9.97 / 10</string>
-    <string name="review2">This game is simply addictive! The levels are well\ncrafted and the difficulty gradually increases,\nkeeping the challenge always interesting. Sound\neffects and soundtrack contribute to an immersive\nexperience. I can\'t stop playing!</string>
+    <string name="review2">This game is simply addictive! The levels\nare well crafted and the difficulty gradually\nincreases, keeping the challenge always\ninteresting. Sound effects and soundtrack\ncontribute to an immersive experience. I\ncan\'t stop playing!</string>
     <string name="provider">Reviews Provided by Octopius Games</string>
     <string name="specifications">Specifications</string>
     <string name="windows">Windows</string>
@@ -66,4 +65,41 @@
     <string name="exit">Exit</string>
     <string name="about_the_game">ABOUT THE GAME</string>
     <string name="game_reviews">GAME REVIEWS</string>
+    <string name="adicionado_em_20_10_2022">Adicionado em 20/10/2022</string>
+    <string name="biblioteca">Biblioteca</string>
+    <string name="menu_deslizante">Menu Deslizante</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="adicionado_em_20_08_2021">Adicionado em 20/08/2021</string>
+    <string name="call_of_duty_modern_warfare">Call of Duty: Modern Warfare</string>
+
+    <string-array name="nomesJogos">
+        <item>Rocket League</item>
+        <item>God Of War: Ragnarok</item>
+        <item>Elden Ring</item>
+        <item>Red Dead Redemption 2</item>
+        <item>Call of Duty: Modern Warfare</item>
+        <item>Battlefield 2042</item>
+    </string-array>
+
+    <string-array name="dataJogos">
+        <item>14/05/2022</item>
+        <item>12/05/2022</item>
+        <item>31/02/2022</item>
+        <item>17/04/2023</item>
+        <item>16/04/2023</item>
+        <item>14/04/2023</item>
+    </string-array>
+
+    <string name="abrir">Abrir</string>
+    <string name="visitar_p_gina_na_loja">Visitar página na loja</string>
+    <string name="rocket_league">Rocket League</string>
+    <string name="_14_05_2022">14/05/2022</string>
+    <string name="god_of_war_ragnarok">God Of War: Ragnarok</string>
+    <string name="_12_05_2022">12/05/2022</string>
+    <string name="elden_ring">Elden Ring</string>
+    <string name="_31_02_2022">31/02/2022</string>
+    <string name="_17_04_2023">17/04/2023</string>
+    <string name="_16_04_2023">16/04/2023</string>
+    <string name="battlefield_2042">Battlefield 2042</string>
+    <string name="_14_04_2023">14/04/2023</string>
 </resources>

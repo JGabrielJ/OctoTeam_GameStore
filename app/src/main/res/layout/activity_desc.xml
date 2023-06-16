@@ -18,7 +18,7 @@
             android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            app:title="Octopius Game"
+            app:title="@string/app_name"
             app:titleCentered="true"
             app:titleTextColor="@color/gray"
             app:navigationIcon="@drawable/ic_arrow_back"

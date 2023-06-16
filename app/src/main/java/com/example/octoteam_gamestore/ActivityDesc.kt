@@ -1,16 +1,13 @@
 package com.example.octoteam_gamestore
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
-import androidx.viewpager.widget.ViewPager
 import com.example.octoteam_gamestore.databinding.ActivityDescBinding
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.button.MaterialButton
-import org.w3c.dom.Text
 
 class ActivityDesc : AppCompatActivity() {
     private lateinit var binding: ActivityDescBinding

@@ -1,9 +1,7 @@
 package com.example.octoteam_gamestore
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.Fragment
 import com.example.octoteam_gamestore.databinding.ActivityMainBinding
 import com.google.android.material.appbar.MaterialToolbar
