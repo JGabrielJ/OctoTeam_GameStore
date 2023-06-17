@@ -17,7 +17,8 @@
     <string name="view_profile">View Profile</string>
     <string name="username">Username</string>
     <string name="add_friends">Add Friends</string>
-    <string name="price">R$ 98,96</string>
+    <string name="name">NOME DO JOGO</string>
+    <string name="price">R$ 99,99</string>
     <string name="buy_now">BUY NOW</string>
     <string name="home">Home</string>
     <string name="favorite">Favorite</string>
@@ -27,10 +28,11 @@
     <string name="refund_type">Refund Type</string>
     <string name="self_refundable">Self-Refundable</string>
     <string name="developer">Developer</string>
-    <string name="rockstar_games">Rockstar Games</string>
+    <string name="game_dev">GAME DEVELOPER</string>
     <string name="publisher">Publisher</string>
+    <string name="game_pub">GAME PUBLISHER</string>
     <string name="release_date">Release Date</string>
-    <string name="_5_dec_2019">5 Dec, 2019</string>
+    <string name="release">DD/MM/AA</string>
     <string name="platform">Platform</string>
     <string name="game_informer">Game Informer</string>
     <string name="author1">by James Salad Fruit</string>

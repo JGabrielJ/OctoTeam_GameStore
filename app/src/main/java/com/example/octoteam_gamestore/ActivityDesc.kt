@@ -8,9 +8,13 @@ import android.widget.*
 import com.example.octoteam_gamestore.databinding.ActivityDescBinding
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.button.MaterialButton
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 
 class ActivityDesc : AppCompatActivity() {
     private lateinit var binding: ActivityDescBinding
+    private lateinit var database: DatabaseReference
+
     private lateinit var titleBar: MaterialToolbar
     private lateinit var buyButton: MaterialButton
     private lateinit var favoriteCheck: CheckBox
@@ -30,6 +34,7 @@ class ActivityDesc : AppCompatActivity() {
         binding = ActivityDescBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        gameData("4")
         titleBar = findViewById(R.id.title)
         titleBar.setNavigationOnClickListener {
             onBackPressed()
@@ -117,6 +122,25 @@ class ActivityDesc : AppCompatActivity() {
             val uri = Uri.parse(link)
             val intent = Intent(Intent.ACTION_VIEW, uri)
             startActivity(intent)
+        }
+    }
+
+    private fun gameData(gameIndex: String) {
+        database = FirebaseDatabase.getInstance().getReference("jogos")
+        database.child(gameIndex).get().addOnSuccessListener {
+            val name = it.child("nome").value
+            val image = it.child("imagem").value
+            val price = it.child("preco").value
+            val release = it.child("lancamento").value
+            val developer = it.child("desenvolvedor").value
+            val publisher = it.child("distribuidora").value
+
+            binding.name.text = name.toString()
+            binding.image.setImageResource(R.drawable.ic_rdr2)
+            binding.price.text = price.toString()
+            binding.release.text = release.toString()
+            binding.developer.text = developer.toString()
+            binding.publisher.text = publisher.toString()
         }
     }
 }
