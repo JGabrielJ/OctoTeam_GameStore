@@ -1,6 +1,8 @@
 package com.example.octoteam_gamestore
 
+import android.app.ProgressDialog
 import android.content.Intent
+import android.graphics.BitmapFactory
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,6 +12,8 @@ import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.button.MaterialButton
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.storage.FirebaseStorage
+import java.io.File
 
 class ActivityDesc : AppCompatActivity() {
     private lateinit var binding: ActivityDescBinding
@@ -34,7 +38,10 @@ class ActivityDesc : AppCompatActivity() {
         binding = ActivityDescBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        gameData("4")
+        val intentGame: Intent = intent
+        val gameID: String = intentGame.getStringExtra("gameID")!!
+        gameData(gameID)
+
         titleBar = findViewById(R.id.title)
         titleBar.setNavigationOnClickListener {
             onBackPressed()
@@ -126,6 +133,11 @@ class ActivityDesc : AppCompatActivity() {
     }
 
     private fun gameData(gameIndex: String) {
+        val progressDialog = ProgressDialog(this)
+        progressDialog.setMessage("Carregando dados...")
+        progressDialog.setCancelable(false)
+        progressDialog.show()
+
         database = FirebaseDatabase.getInstance().getReference("jogos")
         database.child(gameIndex).get().addOnSuccessListener {
             val name = it.child("nome").value
@@ -136,11 +148,21 @@ class ActivityDesc : AppCompatActivity() {
             val publisher = it.child("distribuidora").value
 
             binding.name.text = name.toString()
-            binding.image.setImageResource(R.drawable.ic_rdr2)
             binding.price.text = price.toString()
             binding.release.text = release.toString()
             binding.developer.text = developer.toString()
             binding.publisher.text = publisher.toString()
+
+            val storage = FirebaseStorage.getInstance().reference.child("images/${image}.png")
+            val localFile = File.createTempFile("tempImage", "png")
+            storage.getFile(localFile).addOnSuccessListener {
+                if (progressDialog.isShowing) {
+                    progressDialog.dismiss()
+                }
+
+                val bitmap = BitmapFactory.decodeFile(localFile.absolutePath)
+                binding.image.setImageBitmap(bitmap)
+            }
         }
     }
 }
