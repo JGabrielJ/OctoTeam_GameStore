@@ -51,11 +51,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_weight="50">
+                    android:layout_weight="90">
 
                     <TextView
                         android:id="@+id/name"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/name"
                         android:textColor="@color/white"
@@ -114,8 +114,8 @@
                     android:id="@+id/favorite"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="50"
-                    android:padding="17dp"
+                    android:layout_weight="10"
+                    android:paddingBottom="35dp"
                     android:button="@drawable/ic_fav"
                     android:buttonTint="#FF0000"
                     android:checked="true"/>
@@ -126,7 +126,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:src="@drawable/ic_rdr2"
+                android:src="@drawable/ic_default"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="30dp"
@@ -212,7 +212,7 @@
                         android:text="@string/refund_type"
                         android:textColor="@color/gray"
                         android:textStyle="bold"
-                        android:layout_weight="0.5"/>
+                        android:layout_weight="75"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -220,7 +220,7 @@
                         android:text="@string/self_refundable"
                         android:textColor="@color/gray"
                         android:textStyle="bold"
-                        android:layout_weight="0.5"
+                        android:layout_weight="25"
                         android:gravity="end"/>
                 </LinearLayout>
 
@@ -253,7 +253,7 @@
                         android:text="@string/developer"
                         android:textColor="@color/gray"
                         android:textStyle="bold"
-                        android:layout_weight="0.5"/>
+                        android:layout_weight="75"/>
 
                     <TextView
                         android:id="@+id/developer"
@@ -262,7 +262,7 @@
                         android:text="@string/game_dev"
                         android:textColor="@color/gray"
                         android:textStyle="bold"
-                        android:layout_weight="0.5"
+                        android:layout_weight="25"
                         android:gravity="end"/>
                 </LinearLayout>
 
@@ -295,7 +295,7 @@
                         android:text="@string/publisher"
                         android:textColor="@color/gray"
                         android:textStyle="bold"
-                        android:layout_weight="0.5"/>
+                        android:layout_weight="75"/>
 
                     <TextView
                         android:id="@+id/publisher"
@@ -304,7 +304,7 @@
                         android:text="@string/game_pub"
                         android:textColor="@color/gray"
                         android:textStyle="bold"
-                        android:layout_weight="0.5"
+                        android:layout_weight="25"
                         android:gravity="end"/>
                 </LinearLayout>
 
@@ -337,7 +337,7 @@
                         android:text="@string/release_date"
                         android:textColor="@color/gray"
                         android:textStyle="bold"
-                        android:layout_weight="0.5"/>
+                        android:layout_weight="75"/>
 
                     <TextView
                         android:id="@+id/release"
@@ -346,7 +346,7 @@
                         android:text="@string/release"
                         android:textColor="@color/gray"
                         android:textStyle="bold"
-                        android:layout_weight="0.5"
+                        android:layout_weight="25"
                         android:gravity="end"/>
                 </LinearLayout>
 
