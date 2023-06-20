@@ -14,7 +14,6 @@ import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference
 
 class ActivityEditProf : AppCompatActivity() {
-
     private lateinit var binding : ActivityEditProfBinding
     private lateinit var auth: FirebaseAuth
     private lateinit var databaseReference : DatabaseReference
