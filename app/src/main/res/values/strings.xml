@@ -104,4 +104,7 @@
     <string name="_16_04_2023">16/04/2023</string>
     <string name="battlefield_2042">Battlefield 2042</string>
     <string name="_14_04_2023">14/04/2023</string>
+    <string name="new_name">New Name</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="edit_tour_profile">Edit Tour Profile</string>
 </resources>

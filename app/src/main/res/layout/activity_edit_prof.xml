@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ActivityEditProf">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/edit_tour_profile"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="26sp"/>
+    <ImageView
+        android:id="@+id/tradeImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_profile"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp" />
+    <EditText
+        android:id="@+id/defUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:hint="@string/new_name"
+        android:textColorHint="@color/gray"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:maxLength="15" />
+    <Button
+        android:id="@+id/saveProfChanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/btn_color"
+        android:text="@string/save_changes"/>
+</LinearLayout>
