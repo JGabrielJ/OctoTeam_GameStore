@@ -1,8 +1,9 @@
-package com.example.octoteam_gamestore
+package com.example.octoteam_gamestore.Profile
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
+import com.example.octoteam_gamestore.R
 
 class NianCatLoad : AppCompatActivity() {
     private lateinit var imageView : ImageView

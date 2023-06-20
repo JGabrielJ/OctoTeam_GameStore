@@ -14,10 +14,10 @@
         android:theme="@style/Theme.OctoTeam_GameStore"
         tools:targetApi="31">
         <activity
-            android:name=".NianCatLoad"
+            android:name=".Profile.NianCatLoad"
             android:exported="false" />
         <activity
-            android:name=".ActivityEditProf"
+            android:name=".Profile.ActivityEditProf"
             android:exported="false" />
         <activity
             android:name=".ActivityDownload"

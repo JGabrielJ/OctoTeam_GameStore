@@ -15,7 +15,6 @@
     <string name="add_funds_wallet">Add Funds Wallet</string>
     <string name="_5_n_games">5\n Games</string>
     <string name="view_profile">View Profile</string>
-    <string name="username">Username</string>
     <string name="add_friends">Add Friends</string>
     <string name="name">NOME DO JOGO</string>
     <string name="price">R$ 99,99</string>
@@ -41,6 +40,9 @@
     <string name="author2">by Mango Joe</string>
     <string name="note2">9.97 / 10</string>
     <string name="review2">This game is simply addictive! The levels\nare well crafted and the difficulty gradually\nincreases, keeping the challenge always\ninteresting. Sound effects and soundtrack\ncontribute to an immersive experience. I\ncan\'t stop playing!</string>
+    <string name="author3">by Blue Pen</string>
+    <string name="note3">9.63 / 10</string>
+    <string name="review3">Blue pen, blue pen; look, if you don\'t love me,\nplease don\'t call me and don\'t complain…</string>
     <string name="provider">Reviews Provided by Octopius Games</string>
     <string name="specifications">Specifications</string>
     <string name="windows">Windows</string>
@@ -104,7 +106,8 @@
     <string name="_16_04_2023">16/04/2023</string>
     <string name="battlefield_2042">Battlefield 2042</string>
     <string name="_14_04_2023">14/04/2023</string>
-    <string name="new_name">New Name</string>
+    <string name="username">Username</string>
     <string name="save_changes">Save Changes</string>
-    <string name="edit_tour_profile">Edit Tour Profile</string>
+    <string name="edit_your_profile">Edit Your Profile</string>
+    <string name="edit_profile">Edit Profile</string>
 </resources>
